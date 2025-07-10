@@ -8,6 +8,20 @@
       "when": 1752015672924,
       "tag": "0000_light_leech",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1752145204964,
+      "tag": "0001_low_overlord",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752149033623,
+      "tag": "0002_dark_jack_power",
+      "breakpoints": true
     }
   ]
 }
