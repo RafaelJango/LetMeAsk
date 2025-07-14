@@ -61,13 +61,6 @@ src/
 ```
 
 
-## **Screenshots**
-
-<div align="center">
-  <!-- Adicione aqui imagens ou gifs do frontend em funcionamento! -->
-  <!-- Exemplo: -->
-  <!-- <img src="CAMINHO/DA/IMAGEM1.png" width="300px" /> -->
-</div>
 
 
 ## **Aprendizados**
