@@ -2,24 +2,30 @@ import { reset, seed } from 'drizzle-seed';
 import { db, sql } from './connection.ts';
 import { schema } from './schema/index.ts';
 
-await reset(db, schema);
+// Create a schema without the audioChunks table for seeding
+const seedSchema = {
+  rooms: schema.rooms,
+  questions: schema.questions,
+};
 
-await seed(db, schema).refine((f) => {
+await reset(db, seedSchema);
+
+await seed(db, seedSchema).refine((f) => {
   return {
     rooms: {
-      count: 20,
+      count: 5,
       columns: {
         name: f.companyName(),
         description: f.loremIpsum(),
       },
-      with: {
-        questions: 5,
-      },
+    },
+    questions: {
+      count: 20,
     },
   };
 });
 
 await sql.end();
 
-// biome-ignore lint/suspicious/noConsole: only use in dev
-console.log('Database Seeded');
+// biome-ignore lint/suspicious/noConsole: only used in dev
+console.log('Database seeded');

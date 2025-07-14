@@ -1,79 +1,78 @@
-# Server - LetmeAsk
+# Backend - LetmeAsk
 
-Backend da aplicação LetmeAsk desenvolvido com Fastify, Drizzle ORM e PostgreSQL.
+Este é o backend do projeto LetmeAsk, desenvolvido durante o evento **NLW Agents** da Rocketseat. Ele fornece a API para criação de salas, envio e listagem de perguntas em tempo real.
 
-## 🚀 Tecnologias
+## **Funcionalidades**
 
-- **Fastify** - Framework web
-- **Drizzle ORM** - ORM para TypeScript
-- **PostgreSQL** - Banco de dados
-- **Zod** - Validação de schemas
-- **TypeScript** - Tipagem estática
+- API para criar salas de perguntas
+- Envio e listagem de perguntas
+- Validação de dados com Zod
+- Integração com banco de dados PostgreSQL
 
-## 📋 Pré-requisitos
+## **Tecnologias Utilizadas**
 
-- Node.js 18+
-- Docker e Docker Compose
-- npm ou yarn
+- Fastify
+- Drizzle ORM
+- PostgreSQL
+- Zod
+- TypeScript
+- Docker
 
-## ⚙️ Configuração
+## **Instalação e Execução**
 
-### 1. Instalar dependências
+1. Instale as dependências:
 
 ```bash
 npm install
 ```
 
-### 2. Configurar banco de dados
+2. Suba o banco de dados com Docker:
 
 ```bash
-# Iniciar PostgreSQL com Docker
 docker-compose up -d
 ```
 
-### 3. Configurar variáveis de ambiente
+3. Copie o arquivo `.env.example` para `.env` e ajuste se necessário.
 
-Crie um arquivo `.env` na raiz do servidor:
-
-```env
-PORT=3333
-DATABASE_URL=postgresql://docker:docker@localhost:5432/agents
-```
-
-### 4. Executar migrações (se necessário)
+4. Rode as migrações e seed:
 
 ```bash
 npm run db:seed
 ```
 
-## 🏃‍♂️ Executando o projeto
-
-### Desenvolvimento
+5. Inicie o servidor em modo desenvolvimento:
 
 ```bash
 npm run dev
 ```
 
-### Produção
+O backend estará disponível em `http://localhost:3333`.
 
-```bash
-npm start
-```
-
-O servidor estará disponível em `http://localhost:3333`
-
-## 📁 Estrutura
+## **Estrutura de Pastas**
 
 ```
 src/
-├── db/              # Configuração do banco
-├── http/            # Rotas da API
-├── env.ts           # Variáveis de ambiente
-└── server.ts        # Servidor principal
+├── db/        # Banco de dados e schemas
+├── http/      # Rotas da API
+├── env.ts     # Variáveis de ambiente
+└── server.ts  # Servidor principal
 ```
 
-## 🔧 Scripts Disponíveis
+## **Screenshots**
 
-- `npm run dev` - Executa em modo desenvolvimento com hot reload
-- `npm start` - Executa em modo produção
-- `npm run db:seed` - Executa seed do banco de dados
+<div align="center">
+  <!-- Adicione aqui imagens ou gifs do backend em funcionamento! -->
+  <!-- Exemplo: -->
+  <!-- <img src="CAMINHO/DA/IMAGEM1.png" width="300px" /> -->
+</div>
+
+## **Aprendizados**
+
+- Criação de APIs REST com Fastify
+- Validação de dados com Zod
+- Gerenciamento de banco de dados com Drizzle ORM
+- Integração com Docker
+
+---
+
+Desenvolvido durante o NLW Agents da Rocketseat! 🚀

@@ -1,81 +1,81 @@
-# Web - LetmeAsk
+# Frontend - LetmeAsk
 
-Frontend da aplicação LetmeAsk desenvolvido com React 19, Vite e Tailwind CSS.
+Este é o frontend do projeto LetmeAsk, desenvolvido durante o evento **NLW Agents** da Rocketseat. Ele fornece a interface web para criação de salas e envio de perguntas em tempo real.
 
-## 🚀 Tecnologias
 
-- **React 19** - Biblioteca para interfaces
-- **Vite** - Build tool e dev server
-- **React Router DOM** - Roteamento
-- **TanStack Query** - Gerenciamento de estado do servidor
-- **Tailwind CSS** - Framework CSS utilitário
-- **Radix UI** - Componentes acessíveis
-- **Lucide React** - Ícones
-- **TypeScript** - Tipagem estática
 
-## 📋 Pré-requisitos
+## **Funcionalidades**
 
-- Node.js 18+
-- npm ou yarn
+- Criar salas de perguntas
+- Enviar e visualizar perguntas em tempo real
+- Interface responsiva e moderna
+- Integração com API backend
 
-## ⚙️ Configuração
 
-### 1. Instalar dependências
+
+## **Tecnologias Utilizadas**
+
+- React 19
+- Vite
+- TanStack Query
+- Tailwind CSS
+- Radix UI
+- Lucide React
+- TypeScript
+
+
+
+## **Instalação e Execução**
+
+1. Instale as dependências:
 
 ```bash
 npm install
 ```
 
-### 2. Configurar variáveis de ambiente (se necessário)
-
-Crie um arquivo `.env` na raiz do web:
+2. (Opcional) Configure o arquivo `.env` se necessário:
 
 ```env
 VITE_API_URL=http://localhost:3333
 ```
 
-## 🏃‍♂️ Executando o projeto
-
-### Desenvolvimento
+3. Inicie o frontend em modo desenvolvimento:
 
 ```bash
 npm run dev
 ```
 
-### Build para produção
+Acesse a aplicação em `http://localhost:5173`.
 
-```bash
-npm run build
-```
 
-### Preview da build
 
-```bash
-npm run preview
-```
-
-A aplicação estará disponível em `http://localhost:5173`
-
-## 📁 Estrutura
+## **Estrutura de Pastas**
 
 ```
 src/
-├── components/       # Componentes reutilizáveis
-├── pages/           # Páginas da aplicação
-├── lib/             # Utilitários
-├── app.tsx          # Componente principal
-└── main.tsx         # Ponto de entrada
+├── components/   # Componentes reutilizáveis
+├── pages/        # Páginas da aplicação
+├── lib/          # Utilitários
+├── app.tsx       # Componente principal
+└── main.tsx      # Ponto de entrada
 ```
 
-## 🔧 Scripts Disponíveis
 
-- `npm run dev` - Executa em modo desenvolvimento
-- `npm run build` - Gera build de produção
-- `npm run preview` - Preview da build de produção
+## **Screenshots**
 
-## 🎨 UI/UX
+<div align="center">
+  <!-- Adicione aqui imagens ou gifs do frontend em funcionamento! -->
+  <!-- Exemplo: -->
+  <!-- <img src="CAMINHO/DA/IMAGEM1.png" width="300px" /> -->
+</div>
 
-- Design responsivo com Tailwind CSS
-- Componentes acessíveis com Radix UI
-- Animações suaves
-- Interface moderna e intuitiva
+
+## **Aprendizados**
+
+- Componentização com React
+- Gerenciamento de estado com TanStack Query
+- Estilização com Tailwind CSS
+- Integração com API backend
+
+
+
