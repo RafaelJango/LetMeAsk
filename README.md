@@ -95,10 +95,10 @@ nlw-agents/
 ## **Screenshots**
 
 <div align="center">
-  <img src="https://ibb.co/WN9Fry73" width="300px" />
-  <img src="https://ibb.co/5WX5VDY4" width="300px" />
-  <img src="https://ibb.co/bj8QWv52" width="300px" />
-  <img src="https://ibb.co/FL3HtYzP" width="300px" />
+  <img src="https://i.ibb.co/MyTpzVKh/Captura-de-Tela-2025-07-14-a-s-16-58-00.png" width="300px" />
+  <img src="https://i.ibb.co/ccKNd5b3/Captura-de-Tela-2025-07-14-a-s-17-01-18.png" width="300px" />
+  <img src="https://i.ibb.co/6cfrnt01/Captura-de-Tela-2025-07-14-a-s-17-03-01.png" width="300px" />
+  <img src="https://i.ibb.co/cS3Yd8Qm/Captura-de-Tela-2025-07-14-a-s-17-03-14.png" width="300px" />
 </div>
 
 ---
